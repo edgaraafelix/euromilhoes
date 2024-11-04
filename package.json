@@ -1,0 +1,37 @@
+{
+  "name": "euromilhoes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "grunt build",
+    "watch": "grunt watch"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "bootstrap": "^5.3.3",
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "keywords": [
+    "hapi",
+    "hapijs",
+    "grunt",
+    "gruntjs",
+    "node",
+    "javascript",
+    "experiment"
+  ],
+  "author": "Edgar Fellix <eaafelix@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
