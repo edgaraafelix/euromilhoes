@@ -1,0 +1,16 @@
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #212121 !important;
+}
+
+.number {
+  width: 64px;
+  height: 64px;
+
+  font-size: 22px;
+  font-weight: bold;
+  color: #0d4d91;
+
+  background: url("../img/placeholder.png") no-repeat center center;
+}
