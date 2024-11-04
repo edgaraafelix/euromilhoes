@@ -4,9 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     concat: {
       css: {
-        src: [
-          'assets/css/*.css'
-        ],
+        src: ['src/assets/css/*.css'],
         dest: 'build/assets/css/style.min.css'
       }
     },
@@ -20,12 +18,11 @@ module.exports = function(grunt) {
       }
     },
     copy: {
-      assets: {
+      files: {
         expand: true,
-        src: [
-          'assets/img/*'
-        ],
-        dest: 'build/'
+        cwd: 'src/assets/',
+        src: ['img/*'],
+        dest: 'build/assets/'
       }
     },
     watch: {
