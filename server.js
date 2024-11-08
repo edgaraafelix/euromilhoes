@@ -25,8 +25,8 @@ const Init = async () => {
       html: require('handlebars')
     },
     relativeTo: __dirname,
-    path: './views',
-    layoutPath: './views/layouts',
+    path: './lib/views',
+    layoutPath: './lib/views/layouts',
     layout: 'default',
     isCached: false
   });
